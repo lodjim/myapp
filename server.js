@@ -1,5 +1,19 @@
 const express = require('express')
 const path = require('path');
+// let mysql = require('mysql');
+
+// let con = mysql.createConnection({
+//   host: "mysql",
+//   user: "root",
+//   password: "root123",
+//   database: "mydb"
+// });
+
+// con.connect(function(err) {
+//   if (err) throw err;
+//   console.log("Connected!");
+// });
+
 const app = express()
 const port = 3000
 
